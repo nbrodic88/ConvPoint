@@ -16,6 +16,8 @@ import random
 import metrics
 from sklearn.metrics import confusion_matrix
 from sklearn.neighbors import BallTree
+from global_tags import GlobalTags
+GlobalTags.legacy_layer_base(True)
 
 class bcolors:
     HEADER = '\033[95m'
