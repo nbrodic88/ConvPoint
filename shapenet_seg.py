@@ -8,6 +8,8 @@ import math
 import torch
 import torch.utils.data
 import torch.nn.functional as F
+from global_tags import GlobalTags
+GlobalTags.legacy_layer_base(True)
 
 from sklearn.metrics import confusion_matrix
 from sklearn.neighbors import BallTree
